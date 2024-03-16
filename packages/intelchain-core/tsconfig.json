@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": ["src", "../../typings/**/*.d.ts", "../intelchain-utils/src/core.ts"],
+  "references": [
+    {"path": "../intelchain-account"},
+    {"path": "../intelchain-crypto"},
+    {"path": "../intelchain-utils"},
+    {"path": "../intelchain-network"},
+    {"path": "../intelchain-transaction"},
+    {"path": "../intelchain-contract"}
+  ]
+}

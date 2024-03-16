@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "include": ["./typings/**/*.d.ts"],
+  "references": [
+    { "path": "packages/intelchain-utils" },
+    { "path": "packages/intelchain-crypto" },
+    { "path": "packages/intelchain-network" },
+    { "path": "packages/intelchain-transaction" },
+    { "path": "packages/intelchain-staking" },
+    { "path": "packages/intelchain-account" },
+    { "path": "packages/intelchain-contract" },
+    { "path": "packages/intelchain-core" }
+  ]
+}
